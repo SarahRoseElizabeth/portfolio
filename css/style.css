@@ -1,0 +1,82 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+header nav ul {
+  width: 80%;
+  padding: 0 0 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size:14pt;
+}
+
+header nav ul li a.link-selected {
+  color: #ff00cf;
+}
+
+header nav ul li a:hover {
+  color: #ff00cf;
+}
+
+footer {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer h1, footer h2 {
+  margin: 0;
+}
+
+footer h1 {
+  padding-top: 20px;
+}
+
+footer h2 {
+  padding-top: 5px;
+  color: #b3b3b3;
+  font-size: 14pt;
+}
+
+.name-grid {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.name-grid svg {
+  height: 80vh;
+}
+
+.project {
+  width: 60%;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  overflow-x: visible;
+}
+
+.project ul li {
+  height: 500px;
+  background-color: lightgray;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
