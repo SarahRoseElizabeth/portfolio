@@ -1,5 +1,6 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
 }
 
 header nav ul {
@@ -64,19 +65,66 @@ footer h2 {
   height: 80vh;
 }
 
+.unslider {
+  overflow: hidden;
+  position: relative;
+}
+
 .project {
-  width: 60%;
-  margin-left: 200px;
-  margin-bottom: 30px;
-  overflow-x: visible;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .project ul li {
-  height: 500px;
-  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
+.project ul li div {
+  background-color: lightgray;
+  height: 95%;
+  width: 97.5%;
 }
+
+
+
+.prev {
+   border-bottom: 3px solid;
+   border-left: 3px solid;
+   transform: rotate(45deg);
+   left: 10px;
+ }
+
+.next {
+   border-bottom: 3px solid;
+   border-left: 3px solid;
+   transform: rotate(-135deg);
+   right: 10px;
+}
+
+.unslider-arrow {
+   width: 25px;
+   height: 25px;
+   border-color: #666;
+   position: absolute;
+   top: 50%;
+   margin-top: -31px;
+ }
+
+ .arrow-div {
+   position: absolute;
+   width: 50vw;
+   height: 550px;
+ }
+
+ .div-next {
+   left: 50vw;
+ }
+
+ .div-prev {
+
+ }
