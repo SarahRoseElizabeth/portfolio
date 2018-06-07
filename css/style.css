@@ -95,6 +95,8 @@ footer h1 {
   height: 80vh;
 }
 
+/* works page */
+
 .unslider {
   overflow: hidden;
   position: relative;
@@ -221,6 +223,8 @@ footer h1 {
    left: 50vw;
  }
 
+/* about page */
+
  .about-container {
    width: 900px;
    margin-left: auto;
@@ -282,6 +286,8 @@ footer h1 {
   .portrait-image img {
     width: 400px;
   }
+
+/* article page */
 
   .article-container {
     width: 900px;
