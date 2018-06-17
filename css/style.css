@@ -117,7 +117,6 @@ footer h1 {
 }
 
 .project ul li div {
-  /* background-color: lightgray; */
   height: 95%;
   width: 97.5%;
 }
@@ -125,7 +124,15 @@ footer h1 {
 .project .project-image {
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.project .project-gif {
+  width: 62%;
+  position: relative;
+  top: 30px;
 }
 
 .project .info-block {
@@ -164,7 +171,6 @@ footer h1 {
 }
 
 .project .info-block .info-block-text p a {
-  text-decoration: none;
   color:#4d4d4d;
 }
 
