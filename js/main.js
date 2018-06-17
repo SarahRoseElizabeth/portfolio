@@ -12,15 +12,14 @@ $(document).ready(function() {
     // title screen animation
     let tl = new TimelineMax({repeat: -1, repeatDelay: 1});
     let pinkAnim = {fill:"#ff00cf", repeat: 1, yoyo: true,  ease: Power4.easeOut};
-    let greyAnim = {fill:"#d3d3d3", repeat: 1, yoyo: true,  ease: Power4.easeOut};
     let animLength = 0.75;
 
     tl.to("#A-3", animLength, pinkAnim, 0)
       .to("#R", animLength, pinkAnim, 1.0)
       .to("#T", animLength, pinkAnim, 2.0 )
-      .to("#A", animLength, greyAnim, 5.0)
-      .to("#R-2", animLength, greyAnim, 6.0)
-      .to("#T", animLength, greyAnim, 7.0)
+      .to("#A", animLength, pinkAnim, 5.0)
+      .to("#R-2", animLength, pinkAnim, 6.0)
+      .to("#T", animLength, pinkAnim, 7.0)
       .to("#A-2", animLength, pinkAnim, 10.0)
       .to("#R", animLength, pinkAnim, 11.0)
       .to("#T", animLength, pinkAnim, 12.0)
