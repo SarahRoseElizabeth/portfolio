@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Tex-Gyre-Heros";
-  src: url("/font/TeX-Gyre-Heros/texgyreheros-bold.otf") format("opentype"),
-       url("/font/TeX-Gyre-Heros/texgyreheros-regular.otf") format("opentype");
+  src: url("../font/TeX-Gyre-Heros/texgyreheros-bold.otf") format("opentype"),
+       url("../font/TeX-Gyre-Heros/texgyreheros-regular.otf") format("opentype");
 }
 
 body {
