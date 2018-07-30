@@ -53,8 +53,8 @@ footer .works-footer-container .footer-menu {
   width: inherit;
 }
 
-header nav.works-nav .fixed-container, footer .works-footer-container {
-  width: calc(900px * 0.95);
+footer .works-footer-container {
+  width: 900px;
 }
 
 header nav ul, footer ul {
