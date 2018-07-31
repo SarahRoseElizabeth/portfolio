@@ -178,7 +178,7 @@ header nav ul li a:hover {
   width: 97.5%;
   box-sizing: border-box;
   padding: 100px 50px 0 50px;
-  line-height: 25px;
+  line-height: 30px;
   background: #ffffff;
   color: #4d4d4d;
   opacity: 0;
@@ -277,7 +277,7 @@ header nav ul li a:hover {
   }
 
   .about-info p {
-    line-height: 25px;
+    line-height: 30px;
     font-size: 18px;
     font-family: "Avenir", "Lato", sans-serif;
     color: #4d4d4d;
